@@ -1,114 +1,17 @@
-absl-py>=0.13.0
-anyio==3.6.2
-appdirs==1.4.4
-asgiref==3.7.2
-asttokens==2.0.5
-attrs==21.4.0
-backcall==0.2.0
-beautifulsoup4==4.10.0
-black==22.3.0
-bleach==4.1.0
-certifi==2023.5.0
-cffi==1.15.1
-charset-normalizer==2.0.12
-click==8.1.3
-cloudpickle==2.2.1
-colorama==0.4.6
-cycler==0.11.0
-debugpy==1.5.1
-decorator==5.1.1
-Django==4.2.3
-django-cors-headers==4.4.0
-djangorestframework==3.14.0
-entrypoints==0.4
-executing==0.10.0
-filelock==3.8.0
-flake8==4.0.1
-Flask==2.2.2
-flatbuffers==23.1.4
-fonttools==4.25.0
-future==0.18.2
-gensim==4.1.2
-gitdb==4.0.9
-GitPython==3.1.24
-googletrans==4.0.0rc1
-h11==0.12.0
-httpcore==0.13.7
-httpx==0.21.1
-idna==3.4
-importlib-metadata==4.13.0
-ipykernel==6.17.1
-ipython==8.5.0
-isort==5.10.1
-itsdangerous==2.1.2
-jedi==0.18.2
-Jinja2==3.1.2
-joblib==1.1.1
-jsonschema==4.16.0
-jupyter-client==7.4.9
-jupyter-core==4.11.2
-kiwisolver==1.4.4
-lazy-object-proxy==1.7.1
-lxml==4.8.0
-MarkupSafe==2.1.1
-matplotlib==3.5.3
-mccabe==0.7.0
-mistune==2.0.4
-nbconvert==6.5.4
-nbformat==5.5.0
-networkx==2.8.8
-nltk==3.7
-notebook==6.4.12
-numpy==1.23.5
-packaging==21.3
-pandas==1.5.3
-parsel==1.6.0
-parso==0.8.3
-pathspec==0.10.3
-pexpect==4.8.0
-pickleshare==0.7.5
-Pillow==9.4.0
-pluggy==1.0.0
-prometheus-client==0.14.1
-prompt-toolkit==3.0.31
-protobuf==3.19.1
-psutil==5.9.0
-ptyprocess==0.7.0
-pure-eval==0.2.2
-pycparser==2.21
-Pygments==2.11.2
-PyJWT==2.4.0
-pylint==2.13.9
-pyls-spyder==0.4.0
-pyOpenSSL==22.0.0
-pyparsing==3.0.8
-pyrsistent==0.18.1
-python-dateutil==2.8.2
-python-lsp-jsonrpc==1.0.0
-python-lsp-server==1.3.4
-pytz==2022.1
-pyzmq==23.1.0
-requests==2.28.0
-scipy==1.8.1
-six==1.16.0
-sniffio==1.2.0
-soupsieve==2.3.2.post1
-sqlparse==0.4.2
-tenacity==8.0.1
-terminado==0.15.0
-testpath==0.6.0
-text-unidecode==1.3
-textdistance==4.2.1
-tomli==2.0.1
-toolz==0.11.2
-tornado==6.1
-traitlets==5.1.1
-typed-ast==1.5.4
-typing-extensions==4.2.0
-urllib3==1.26.9
-wcwidth==0.2.5
-webencodings==0.5.1
-Werkzeug==2.1.2
-wrapt==1.14.1
-zipp==3.8.0
-zope.interface==5.4.0
+# React 및 프론트엔드 관련 패키지
+django-cors-headers==4.4.0  # CORS 설정을 위해 필요한 패키지
+djangorestframework==3.14.0  # Django REST framework, 백엔드 API를 위한 필수 패키지
+
+# 추가적으로 필요할 수 있는 기타 패키지
+certifi==2023.5.7  # SSL 인증서 확인을 위해 필요한 패키지
+idna==3.4  # 유니코드 도메인 네임을 지원하기 위한 패키지
+charset-normalizer==2.0.12  # 인코딩 관련 패키지
+urllib3==1.26.14  # HTTP 클라이언트
+requests==2.28.1  # HTTP 요청을 보내기 위한 패키지
+
+# 필요한 Django 패키지
+Django==4.2.3  # Django 메인 패키지
+asgiref==3.7.2  # Django 비동기 지원을 위한 패키지
+
+# JWT 인증을 위해 필요한 패키지
+PyJWT==2.4.0  # JSON Web Token 패키지
